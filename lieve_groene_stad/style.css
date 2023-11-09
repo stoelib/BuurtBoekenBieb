@@ -7,25 +7,18 @@ h2{
     font-size: medium;
 }
 
-P{
-    font-size: small;
-}
-
 header img{
     padding: 1em;
-}
-
-.linkkleur {
-    border-color:black;
-    text-decoration: none;
 }
 
 .intro{
     background-color:rgba(248, 213, 193, 0.9);
     border-style: solid;
     display: flex;
-    justify-self: center;
     text-align: center;
+    margin-bottom: 2em;
+    font-family:'Courier New', Courier, monospace;
+    font-size: small;
 }
 
 .knoppen{
@@ -35,27 +28,32 @@ header img{
     justify-content: space-around;
 }
 
+.uitleg{
+    background-color:rgba(248, 213, 193, 0.9);
+    border-style: solid;
+    display: flex;
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
 
 .kop1{
-    justify-content: left;
     display: flex;
-    padding: 1em;
-    gap: 2em;
+    padding: 10px;
     background-color:rgba(248, 213, 193, 0.9);
     margin-bottom: 1em;
     border-style: solid;
     border-width: 2px;
     text-align: left;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-.afbeelding1{
-    justify-content: right;
-    display: flex;
-    gap: 1em;
-    border: 0.5em;
-    height: 200px;
+.afbeelding1 img{
+    width: 100%;
+    border: 2px;
     border-style: solid;
-    border-width: 2px;
 }
 
 .title{
@@ -77,8 +75,8 @@ footer ul{
 
 footer li{
     border-style: solid;
-    padding-left: 1cm;
-    padding-right: 1cm;
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;
     background-color:rgba(248, 213, 193, 0.9);
 }
 
@@ -109,14 +107,14 @@ footer li{
 .images{
     display: flex;
     width: 100%;
+    border-style: solid;
+    border-width: 2px;
 }
 
 .images img{
     height: 200px;
     width: 100%;
     transition: all 0.15s ease;
-    border-style: solid;
-    border-width: 2px;
 }
 
 .images input{
